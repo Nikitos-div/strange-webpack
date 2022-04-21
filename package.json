@@ -1,0 +1,40 @@
+{
+  "name": "strange-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikitos-div/strange-webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikitos-div/strange-webpack/issues"
+  },
+  "homepage": "https://github.com/Nikitos-div/strange-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@webpack-cli/generators": "^0.1.2",
+    "babel-loader": "^8.0.1",
+    "css-loader": "^6.7.1",
+    "html-webpack-plugin": "^3.0.4",
+    "style-loader": "^3.3.1",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  }
+}
